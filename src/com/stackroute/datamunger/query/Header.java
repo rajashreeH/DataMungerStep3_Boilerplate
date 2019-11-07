@@ -7,8 +7,18 @@ public class Header {
 	 * the headers.
 	 */
 	
+
+	String[] header;
+	public Header(String[] header) {
+		this.header = header;
+	}
+
 	public String[] getHeaders() {
-		return null;
+
+		return header;
+	}
+	public void setHeaders(String[] header) {
+		this.header = header;
 	}
 
 }
